@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pranav Kumar | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Tailwind CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts (Inter) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Navbar -->
+      <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm glassmorphic"
+      >
+        <div class="container">
+          <a class="navbar-brand fw-bold text-gradient" href="#"
+            >Pranav Kumar</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#timeline">Timeline</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#certifications">Certifications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <button
+                  id="theme-toggle"
+                  class="nav-link btn btn-link theme-toggle"
+                  aria-label="Toggle theme"
+                >
+                  <i id="theme-icon" class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section id="home" class="hero py-5 text-center">
+        <canvas id="particleCanvas" class="particle-bg"></canvas>
+        <div class="container">
+          <div class="hero-content">
+            <img
+              src="PHOTO-2025-04-16-16-40-45.jpg"
+              alt="Profile of Pranav Kumar"
+              class="profile-img rounded-circle mb-4"
+              style="margin-top: 50px"
+            />
+            <h1 class="hero-title display-4 fw-bold text-gradient">
+              Pranav Kumar
+            </h1>
+            <p class="hero-subtitle lead text-muted typing-animation">
+              | Machine Learning Enthusiast
+            </p>
+            <div class="social-links d-flex justify-content-center gap-3 mt-4">
+              <a
+                href="https://github.com/Bitshifter-9"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="GitHub Profile"
+              >
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/pranav-kumar-bandaram/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="LinkedIn Profile"
+              >
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+              <a
+                href="https://codeforces.com/profile/Bit_shifter"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="Codeforces Profile"
+              >
+                <i class="fas fa-code fa-2x"></i>
+              </a>
+              <a
+                href="https://www.codechef.com/users/bit_shifter_09"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="CodeChef Profile"
+              >
+                <i class="fas fa-laptop-code fa-2x"></i>
+              </a>
+              <a
+                href="https://leetcode.com/u/Bit_shifter/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="LeetCode Profile"
+              >
+                <i class="fas fa-terminal fa-2x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about py-5 bg-gradient">
+        <div class="container">
+          <h2 class="section-title display-5 text-center mb-5">About Me</h2>
+          <div class="about-content text-center">
+            <p class="lead">
+              I'm Pranav Kumar.Bandaram, a dedicated Machine Learning enthusiast
+              skilled in C++, JavaScript, Python, and modern web technologies. I
+              specialize in creating scalable web applications and solving
+              complex problems with ML. My creativity, strong soft skills, and
+              expertise in React, Figma, and Pandas drive me to build impactful
+              solutions.
+            </p>
+            <a
+              href="Resume-PRANAV KUMAR BANDARAM.pdf"
+              download
+              class="btn btn-primary mt-4"
+              aria-label="Download CV"
+            >
+              <i class="fas fa-download me-2"></i>Download CV
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills py-5">
+        <div class="container">
+          <h2 class="section-title display-5 text-center mb-5">Skills</h2>
+          <div
+            class="skills-list row row-cols-2 row-cols-md-4 row-cols-lg-5 g-3"
+          >
+            <div class="col text-center skill-item">
+              <i class="fas fa-code fa-2x mb-2" aria-hidden="true"></i>
+              <p>C++</p>
+            </div>
+            <div class="col text-center skill-item">
+              <i class="fab fa-js fa-2x mb-2" aria-hidden="true"></i>
+              <p>JavaScript</p>
+            </div>
+            <div class="col text-center skill-item">
+              <i class="fab fa-html5 fa-2x mb-2" aria-hidden="true"></i>
+              <p>HTML/CSS</p>
+            </div>
+            <div class="col text-center skill-item">
+              <i class="fab fa-python fa-2x mb-2" aria-hidden="true"></i>
+              <p>Python</p>
+            </div>
+            <div class="col text-center skill-item">
+              <i class="fab fa-react fa-2x mb-2" aria-hidden="true"></i>
+              <p>React</p>
+            </div>
+            <div class="col text-center skill-item">
+              <i class="fab fa-bootstrap fa-2x mb-2" aria-hidden="true"></i>
+              <p>Bootstrap</p>
+            </div>
+            <div class="col text-center skill-item">
+              <i class="fas fa-table fa-2x mb-2" aria-hidden="true"></i>
+              <p>Pandas</p>
+            </div>
+            <div class="col text-center skill-item">
+              <i class="fas fa-chart-line fa-2x mb-2" aria-hidden="true"></i>
+              <p>Matplotlib</p>
+            </div>
+            <div class="col text-center skill-item">
+              <i class="fas fa-database fa-2x mb-2" aria-hidden="true"></i>
+              <p>SQL</p>
+            </div>
+            <div class="col text-center skill-item">
+              <i class="fas fa-code fa-2x mb-2" aria-hidden="true"></i>
+              <p>C</p>
+            </div>
+            <div class="col text-center skill-item">
+              <i class="fas fa-brain fa-2x mb-2" aria-hidden="true"></i>
+              <p>ML</p>
+            </div>
+            <div class="col text-center skill-item">
+              <i class="fab fa-figma fa-2x mb-2" aria-hidden="true"></i>
+              <p>Figma</p>
+            </div>
+            <div class="col text-center skill-item">
+              <i class="fas fa-file-excel fa-2x mb-2" aria-hidden="true"></i>
+              <p>Excel</p>
+            </div>
+            <div class="col text-center skill-item">
+              <i class="fas fa-file-word fa-2x mb-2" aria-hidden="true"></i>
+              <p>Microsoft Office</p>
+            </div>
+            <div class="col text-center skill-item">
+              <i class="fas fa-heart fa-2x mb-2" aria-hidden="true"></i>
+              <p>Soft Skills</p>
+            </div>
+            <div class="col text-center skill-item">
+              <i class="fas fa-lightbulb fa-2x mb-2" aria-hidden="true"></i>
+              <p>Creativity</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects py-5 bg-gradient">
+        <div class="container">
+          <h2 class="section-title display-5 text-center mb-5">Projects</h2>
+          <div class="projects-grid row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <a
+                href="https://sparkling-figolla-950440.netlify.app/main"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-decoration-none"
+              >
+                <div class="project-card card h-100 modern-card">
+                  <div class="project-icon text-center pt-4">
+                    <i class="fas fa-store fa-3x"></i>
+                  </div>
+                  <div class="card-body">
+                    <h3 class="card-title">E-Commerce</h3>
+                    <p class="card-text">An e-commerce platform.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col">
+              <a
+                href="https://bitshifter-9.github.io/s-w_proj/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-decoration-none"
+              >
+                <div class="project-card card h-100 modern-card">
+                  <div class="project-icon text-center pt-4">
+                    <i class="fas fa-clock fa-3x"></i>
+                  </div>
+                  <div class="card-body">
+                    <h3 class="card-title">Time Management Website</h3>
+                    <p class="card-text">
+                      A collaborative time manager built with JS.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col">
+              <a
+                href="https://bingo-pranav-kumar.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-decoration-none"
+              >
+                <div class="project-card card h-100 modern-card">
+                  <div class="project-icon text-center pt-4">
+                    <i class="fas fa-gamepad fa-3x"></i>
+                  </div>
+                  <div class="card-body">
+                    <h3 class="card-title">Bingo Game</h3>
+                    <p class="card-text">An interactive game by JS.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Timeline Section (Education & Experience) -->
+      <section id="timeline" class="timeline py-5">
+        <div class="container">
+          <h2 class="section-title display-5 text-center mb-5">Timeline</h2>
+          <div class="row g-4">
+            <!-- Education (Left) -->
+            <div class="col-md-6 order-md-1">
+              <h3 class="subsection-title text-center mb-4">Education</h3>
+              <div class="education-list">
+                <div class="education-card card modern-card mb-3">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <h4>B.Tech in Computer Science</h4>
+                      <span>2024 - 2028</span>
+                    </div>
+                    <p class="text-muted">NEWTON SCHOOL OF TECHNOLOGY</p>
+                    <p></p>
+                  </div>
+                </div>
+                <div class="education-card card modern-card mb-3">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <h4>Intermediate</h4>
+                      <span>2021 - 2023</span>
+                    </div>
+                    <p class="text-muted">MIITY JUNIOR COLLEGE</p>
+                    <p>Focused on Mathematics.</p>
+                  </div>
+                </div>
+                <div class="education-card card modern-card mb-3">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <h4>High School</h4>
+                      <span>2011 - 2021</span>
+                    </div>
+                    <p class="text-muted">SRI CHAITANYA SCHOOL</p>
+                    <p>Focused on Mathematics.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Experience (Right) -->
+            <div class="col-md-6 order-md-2">
+              <h3 class="subsection-title text-center mb-4">Experience</h3>
+              <div class="experience-list">
+                <div class="experience-card card modern-card mb-3">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <h4>E-CELL MEMBER</h4>
+                      <span>2024 - Present</span>
+                    </div>
+                    <p class="text-muted">NEWTON SCHOOL OF TECHNOLOGY</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications Section -->
+      <section id="certifications" class="certifications py-5 bg-gradient">
+        <div class="container">
+          <h2 class="section-title display-5 text-center mb-5">
+            Certifications
+          </h2>
+          <div class="certifications-grid row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <a
+                href="https://coursera.org/share/99e969d3afc7852d01500ccced9530ad"
+                Replace
+                with
+                actual
+                certificate
+                link
+                --
+              >
+                <div class="certification-card card h-100 modern-card">
+                  <div class="card-body">
+                    <h4 class="card-title">Fundamentals of AI</h4>
+                    <p class="card-text">
+                      Stanford Online: Mastered supervised/unsupervised
+                      learning.
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact py-5">
+        <div class="container">
+          <h2 class="section-title display-5 text-center mb-5">Contact Me</h2>
+          <div class="contact-form col-md-6 mx-auto">
+            <form
+              id="contactForm"
+              action="https://formspree.io/f/xovezvne"
+              method="POST"
+            >
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  required
+                  aria-required="true"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="_replyto"
+                  required
+                  aria-required="true"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                  aria-required="true"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary w-100"
+                id="submitBtn"
+                aria-label="Send Message"
+              >
+                <span id="submitText">Send Message</span>
+                <span
+                  id="spinner"
+                  class="spinner-border spinner-border-sm d-none"
+                  role="status"
+                  aria-hidden="true"
+                ></span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer py-4 bg-dark text-white glassmorphic">
+        <div class="wave"></div>
+        <div class="container">
+          <div
+            class="footer-content d-flex justify-content-between align-items-center flex-column flex-md-row"
+          >
+            <p>© 2025 Pranav Kumar. All rights reserved.</p>
+            <div class="footer-links d-flex gap-4">
+              <a href="https://github.com/Bitshifter-9" class="text-white"
+                >Github</a
+              >
+              <a
+                href="https://www.linkedin.com/in/pranav-kumar-bandaram/"
+                class="text-white"
+                >LinkedIn</a
+              >
+              <a
+                href="https://codeforces.com/profile/Bit_shifter"
+                class="text-white"
+                >Codeforces</a
+              >
+              <a
+                href="https://www.codechef.com/users/bit_shifter_09"
+                class="text-white"
+                >CodeChef</a
+              >
+              <a href="https://leetcode.com/u/Bit_shifter/" class="text-white"
+                >LeetCode</a
+              >
+              <!-- <a href="https://hackerrank.com" class="text-white">HackerRank</a> -->
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Back to Top Button -->
+      <button
+        id="backToTop"
+        class="btn btn-primary back-to-top d-none"
+        aria-label="Back to Top"
+      >
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
